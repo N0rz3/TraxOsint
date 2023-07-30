@@ -77,7 +77,13 @@ For run 🚀:
 
 ```$ python3 traxosint.py 1.1.1.1```
 
-![](https://github.com/N0rz3/TraxOsint/tree/master/assets/demo.mp4)
+
+
+![](https://github.com/N0rz3/TraxOsint/assets/123885505/a4dbf581-f27a-4884-9214-d7c6da6fe660)
+
+
+
+
 
 
 **🗺️ Map generated:**
