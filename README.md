@@ -30,8 +30,8 @@
 - country
 - region
 - city
-- latitude 
-- longitude
+- latitude # scraped of ipinfo
+- longitude # scraped of ipinfo
 - creation of map
 
 **modules**
