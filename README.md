@@ -12,12 +12,12 @@
 > TraxOsint uses several services, API to have more results and to be able to compare them afterwards to have a more precise result
 
 
-**Features of script**
+**🔥 Features of script**
 - fully async
 - asynchrone scraping 
 - menu in cli format (commands)
 
-**Skills**
+**🔥 Skills**
 - checking ip valid or not
 - ping
 - checking open ports (8080, 80, 443) # you can add
