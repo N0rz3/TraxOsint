@@ -79,7 +79,7 @@ For run 🚀:
 
 
 
-![](https://github.com/N0rz3/TraxOsint/assets/123885505/a4dbf581-f27a-4884-9214-d7c6da6fe660)
+https://github.com/N0rz3/TraxOsint/assets/123885505/a4dbf581-f27a-4884-9214-d7c6da6fe660
 
 
 
