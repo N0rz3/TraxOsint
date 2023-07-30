@@ -55,7 +55,7 @@ $ cd ./TraxOsint
 $ install.bat
 ```
 
-**For 🐧 Linux:**
+**For 🐧 Linux and others:**
 ```
 $ git clone https://github.com/N0rz3/TraxOsint.git
 $ cd ./TraxOsint
