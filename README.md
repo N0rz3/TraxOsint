@@ -22,7 +22,7 @@
 - ping
 - checking open ports (8080, 80, 443) # you can add
 - checking if ip is affiliated with ProtonVPN
-- check if the ip is in a paste
+- check if the ip is in a paste (Pastebin)
 - organization
 - a.s.
 - i.s.p.
