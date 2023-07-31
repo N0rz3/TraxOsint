@@ -39,10 +39,10 @@
 Name                 |         Domain                        |          
 | ------------------- | --------------------------------------  
 | [Proton](https://proton.me) | proton.me
+| [Pastebin](https://pastebin.com/)             |  pastebin.com
 | [Ip-api](https://ip-api.com/)             | ip-api.com
 | [Ipinfo](https://ipinfo.io)             | ipinfo.io 
 | [IpWhois](https://ipwhois.io/)             |  ipwhois.io                         
-| [Pastebin](https://pastebin.com/)             |  pastebin.com
 
 
 ## **🛠️ Requirements / Launch**
