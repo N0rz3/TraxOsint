@@ -4,6 +4,7 @@ from modules.ipinfo import *
 from modules.proton import *
 from modules.ipapi import *
 from modules.ipwhois import *
+from modules.pastebin import *
 from lib.pinger import ping
 from lib.check_ports import check_open_ports
 import re
@@ -26,12 +27,12 @@ async def ip(ip):
         print(f"""
 {YELLOW}🛠️ Modules{WHITE}
 {"-"*55}
-{protonvpn}
+{protonvpn}""")
+        await pastebin_dump(ip)
 
-{ipapi}
+        print(f"""\r{ipapi}
 {ipwhois}
 {org}
-
 {ipinfo}
 """)
         await Creator.point_placer(ip)
