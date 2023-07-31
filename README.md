@@ -9,7 +9,9 @@
 
 # **😇 Abouts TraxOsint**
 > TraxOsint is an open source tool based on the search for information on an ip address.
-> TraxOsint uses several services, API to have more results and to be able to compare them afterwards to have a more precise result
+> TraxOsint uses several services, API to have more results and to be able to compare them afterwards to have a more precise result.
+>
+> TraxOsint will never use your user agent to make requests 😎.
 
 
 **🔥 Features of script**
