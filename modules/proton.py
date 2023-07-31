@@ -12,10 +12,10 @@ async def vpnchecker(ip):
 
     try:
         if ip in response.text:
-            output = f"{GREEN}Proton{WHITE} | ✔️ | {WHITE}This IP address is currently affiliated with ProtonVPN.{WHITE}"
+            output = f"{CYAN}Proton{WHITE}   | ✔️ | This IP address is currently affiliated with ProtonVPN."
 
         else:
-            output =  f"{RED}Proton{WHITE} | ❌ | {WHITE}This IP address is not currently affiliated with ProtonVPN.{WHITE}"
+            output =  f"{RED}Proton{WHITE}   | ❌ | This IP address is not currently affiliated with ProtonVPN."
     except Exception:
         output =  f"[-] ProtonRate limit."
 
