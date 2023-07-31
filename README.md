@@ -21,7 +21,8 @@
 - checking ip valid or not
 - ping
 - checking open ports (8080, 80, 443) # you can add
-- checking if ip is affiliated with ProtonVPN 
+- checking if ip is affiliated with ProtonVPN
+- check if the ip is in a paste
 - organization
 - a.s.
 - i.s.p.
