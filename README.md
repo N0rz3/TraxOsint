@@ -1,4 +1,4 @@
-<h1 align="center" id="title">T r a x O s i n t  </h1><br>
+<h1 align="center" id="title">📡 T r a x O s i n t  </h1><br>
 
 ![](assets/banner.jpg)
 [![python version](https://img.shields.io/badge/Python-3.10%2B-brightgreen)](https://www.python.org/downloads/)
