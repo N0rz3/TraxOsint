@@ -31,7 +31,10 @@ async def resolv_org(ip):
         
         domain = read['connection']['domain']
         org = str(domain).split(".")[0]
-
-        output = f"✔️ {org.upper()}"
+        
+        if org:
+                output = f"✔️ {org.upper()}\n"
+        else:
+                return ""
 
         return output
