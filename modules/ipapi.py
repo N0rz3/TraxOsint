@@ -22,4 +22,4 @@ async def lookup(ip):
    └──Region ~= {read['regionName']}
       └──City ~= {read['city']}
 """
-        return output
+        return output, read['city']
