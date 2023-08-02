@@ -23,7 +23,7 @@ async def lok(ip):
          
 [{GREEN}+{WHITE}] I.S.P. := {read['connection']['isp']}
 """
-        return output
+        return output, read['city']
 
 
 async def resolv_org(ip):
