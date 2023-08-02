@@ -7,6 +7,7 @@ from modules.ipwhois import *
 from modules.pastebin import *
 from lib.pinger import ping
 from lib.check_ports import check_open_ports
+from lib.probability import prob
 import re
 
 async def ip(ip):
@@ -20,10 +21,10 @@ async def ip(ip):
         open_ports = await check_open_ports(ports, ip)
         open_ports
         protonvpn = await vpnchecker(ip)
-        ipinfo = await look(ip)
-        ipwhois = await lok(ip)
+        ipinfo, coord, latlong = await look(ip)
+        ipwhois, coord = await lok(ip)
         org = await resolv_org(ip)
-        ipapi = await lookup(ip)
+        ipapi, coord = await lookup(ip)
         print(f"""
 {YELLOW}🛠️ Modules{WHITE}
 {"-"*55}
@@ -33,8 +34,10 @@ async def ip(ip):
         print(f"""\r{ipapi}
 {ipwhois}
 {org}
-{ipinfo}
-""")
+{ipinfo}""")
+        probb = prob(ip)
+        await probb.probability()
+        print(f"""\r{latlong}""")
         await Creator.point_placer(ip)
 
     else:
