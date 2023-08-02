@@ -10,7 +10,7 @@ class Creator:
     async def create_map(latitude, longitude):
         map_world = folium.Map(location=[latitude, longitude], zoom_start=5)
 
-        folium.Marker(location=[latitude, longitude], popup="Point").add_to(map_world)
+        folium.Marker(location=[latitude, longitude], popup=f"{latitude}\n{longitude}").add_to(map_world)
 
         return map_world
 
