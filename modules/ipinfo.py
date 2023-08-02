@@ -35,12 +35,12 @@ async def look(ip):
 └──A.S. := {org}
 └──Country := {track['country']}
    └──Region ~= {track['region']}
-      └──City ~= {track['city']}
-{"-"*55}
+      └──City ~= {track['city']}"""
+        latlong = f"""\r{"-"*55}
 
 [🟢] Latitude ~= {lat}
-[🟢] Longitude ~= {long}"""
-        return output
+[🟢] Longitude ~= {long}\n"""
+        return output, track['city'], latlong
 
 async def coordinates(ip):
         track = await url(ip)
