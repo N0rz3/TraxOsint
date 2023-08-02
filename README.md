@@ -33,6 +33,7 @@
 - country
 - region
 - city
+- probabilities of the nearest places # based on API results 
 - latitude              # scraped of ipinfo
 - longitude             # scraped of ipinfo
 - creation of map
