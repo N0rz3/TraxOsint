@@ -3,3 +3,4 @@ httpx==0.24.1
 argparse==1.4.0
 scrape-search-engine==0.2.2
 requests==2.31.0
+bs4
