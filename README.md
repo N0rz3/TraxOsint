@@ -5,7 +5,7 @@
 [![license](https://img.shields.io/badge/License-GNU-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.fr.html)
 
 
-# **TraxOsint is an OSINT tool for track ip adress**
+# **TraxOsint is an OSINT tool for track ip address**
 
 # **😇 Abouts TraxOsint**
 > TraxOsint is an open source tool based on the search for information on an ip address.
